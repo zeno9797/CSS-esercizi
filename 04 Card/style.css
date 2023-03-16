@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: rgb(152, 210, 210);
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    align-items: center;
+    margin: 25px auto;
+    
+}
+
+
+#image {
+    width: 100%;
+    border-bottom: 2px solid rgb(110, 97, 97);
+    
+}
+
+
+.header, .items {
+    border-bottom: 2px solid rgb(110, 97, 97);
+}
+
+
+.card {
+    border: 2px solid rgb(110, 97, 97);
+    
+}
+
+
+#title  {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#header-text, .items, .footer {
+    padding: 10px 10px 10px 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: chocolate;
+    
+}
+
+
+
+
+
+
+
+
