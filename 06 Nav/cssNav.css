@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-title, .nav-home, ul, li, .search {
+    display: inline-block;
+    
+    
+}
+
+#navbar {
+    background-color: rgb(40, 39, 39);
+    padding: 10px 5px;
+    
+    
+    
+}
+
+.nav-title, .nav-home, a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-home, ul, #list, .disabled {
+    margin-left: 5px;
+}
+
+.search {
+    margin-left: 15px;
+    
+}
+
+
+/* The Search button should have a hover effect (background green and white text). Make it responsive: starting from 768 pixel hide all the elements except "Navbar" and a hamburger menu, without fucntionality, should appear.
+
+The hamburger menu has display: none as starting property. */
+
+.search-button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-home, ul, li, .disabled   {
+        display:none ;
+    }
+}
+
