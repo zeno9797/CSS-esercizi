@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+#green {
+    
+    order: 3;
+  }
+  
+#orange {
+   
+    order: 4;
+    
+  }
+  
+  #yellow {
+    
+    order: 1;
+  }
+  
+  #red {
+    
+    order: 2;
+  }
+  
+  #blue {
+    
+    order: 5;
+  }
